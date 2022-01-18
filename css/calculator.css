@@ -25,12 +25,6 @@ form {
   font-size: 130%;
 }
 
-input[type=checkbox] {
-  margin-left: 10px;
-  -webkit-transform: scale(2);
-          transform: scale(2);
-}
-
 h1 {
   text-align: center;
 }
@@ -62,4 +56,28 @@ h5 {
 p.mission {
     font-style: italic;
     text-align: center;
+}
+
+
+ input[type='checkbox'] { 
+    width: 30px !important;
+    height: 30px !important;
+    vertical-align: text-top  ;
+	padding:7px 7px 7px 12px;
+	/*margin:0 0 30px 0;*/
+	background:#FFF;
+	border:1px solid black;
+	color:#96999D;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);        
+	-webkit-appearance: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;		
+}
+
+input[type=checkbox]:checked {
+    background-color: #088a16;
 }
