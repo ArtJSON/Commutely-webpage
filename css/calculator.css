@@ -88,3 +88,7 @@ body {
   background-color: whitesmoke;
   background-size:cover
  }
+
+ span.green_text {
+   color: green;
+ }

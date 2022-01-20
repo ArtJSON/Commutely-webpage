@@ -67,21 +67,22 @@
             <label for="discount">Can you obtain a discounted ticket (e.g. as a student or senior)?</label>
             <input name="discount" id="discount" type="checkbox" onchange="calculate_public();" />
           </div>
+
           <div class="section results">
-            <div class="stat">
-              <h4>You saved Earth from <span id="saved_polution"></span> kilograms of carbon dioxide.</h4>
+            <div class="stat">    
+              <h4>You saved Earth from <span class="green_text"><span id="saved_polution"></span> kilograms</span> of carbon dioxide.</h4>
               <button type="button" style="background-color:transparent" class="btn btn-sm  py-0 px-0" data-container="body" data-toggle="popover" data-placement="top" data-content="The average carbon dioxide emission from new passenger cars registered in 2018 was measured to be 120g per kilometer. Bus produces around 800g of carbon dioxide per kilometer, however after splitting this emition among 40 passengers, it is only 20g per kilometer per passenger (6 times less).">
                 <img src="img/info-24px.png">
               </button>
             </div>
             <div class="stat">
-              <h4>You spent <span id="saved_money"></span>zł less by choosing public transport.</h4>
+              <h4>You spent <span class="green_text"><span id="saved_money"></span>zł less</span> by choosing public transport.</h4>
               <button type="button" style="background-color:transparent" class="btn btn-sm  py-0 px-0" data-container="body" data-toggle="popover" data-placement="top" data-content="Calculated assuming 2 commutes a day 5 days a week. Car costs include fuel and average year maintenance (around 4700zł). Public transport costs calculated for buing 90 day ticket in MPK.">
                 <img src="img/info-24px.png">
               </button>
             </div>
             <div class="stat">
-              <h4>You will spend <span id="time"></span> minutes in the bus or tram.</h4>
+              <h4>You will spend <span class="green_text"><span id="time"></span> minutes</span> in the bus or tram.</h4>
               <button type="button" style="background-color:transparent" class="btn btn-sm  py-0 px-0" data-container="body" data-toggle="popover" data-placement="top" data-content="Public transport time of travel calculated for speed of examplary route, around 13km/h.">
                 <img src="img/info-24px.png">
               </button>
